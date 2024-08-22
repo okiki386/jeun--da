@@ -356,10 +356,8 @@ article .hotTrendImages .mealTypes{
     body{
         width: 100vw;
         height: 100%;
-        background-image: url(./assets.jeun/image\ copy\ 4.png);
-        background-color: white;
         overflow-x: hidden;
-       
+        background-image: url(./assets.jeun/image\ copy\ 4.png);   
     }
     
     .maincontainer header{
@@ -415,12 +413,11 @@ article .hotTrendImages .mealTypes{
         
     }
     .maincontainer header .navContainer nav ul{
-        width: 450px;
+        width: 100%;
+        height: 300px;
         list-style: none;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 10px;
+        flex-direction: column;
         
     }
     
@@ -565,7 +562,7 @@ article .hotTrendImages .mealTypes{
     display: flex;
     flex-direction: row;
     gap: 4px;
-    width: 345px;
+    width: 340px;
     margin-top: 30px;
 }
 
@@ -603,7 +600,6 @@ article .hotTrendImages .mealTypes{
 
 article .hotTrendImages h2{
     font-weight: 500;
-    margin-left: 0;
 }
 
 article .hotTrendImages .mealTypes{
@@ -612,7 +608,7 @@ article .hotTrendImages .mealTypes{
     width: 300px;
     height: 600px;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
@@ -708,7 +704,7 @@ article .hotTrendImages .mealTypes{
     color: #000000;
     font-weight: 900;
     margin-left: 50px;
-    margin-top: 0;
+    margin-top: 20px;
 }  
 .maincontainer .footer .form button{
     padding: 9px;
